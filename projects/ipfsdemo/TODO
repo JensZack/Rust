@@ -1,0 +1,14 @@
+The IPFSdemo project will have rust implementations of aspects of (my understanding of) IPFS and
+p2p networking, writing p2p implementations and or using p2p libraries.
+
+This project should contain cryptography, and cryptographic primitives both imported and
+written from scratch. The project will also contain network routing both from libraries
+and written from scratch. I'm not sure if I can create a VLAN or some kind of local network
+to assign IP addresses for the modules to use.
+
+Modules to write
+    - Define an IPFS Node ??
+    - encrypt data to be stored and connect the key to the data being stored for later use
+    - hash data to give it a unique address
+    - some kind of ZKproof?
+    - Send data over some protocol to another node with a given IP
